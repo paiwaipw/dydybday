@@ -1,0 +1,116 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./media/koala.png" />
+    <title>HBD DYAHH 🥳</title>
+    <link rel="stylesheet" href="../stylesheet/style3.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheet/lightslider.css" />
+    <script type="text/javascript" src="../js/Jquery.js"></script>
+    <script type="text/javascript" src="../js/lightslider.js"></script>
+  </head>
+
+  <body>
+    <section id="hbd">
+      <header>
+        <img src="media/koala.png" class="logo" />
+        <ul>
+          <li><a href="#hbd">HBD</a></li>
+          <li><a href="#page2">Voice Note</a></li>
+          <li><a href="#page3">Gallery</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>ᕼᗩᑭᑭY ᗷIᖇTᕼᗞᗩY<br /><span> Dyahh Lucuuu Bgtttttt</span></h2>
+          <p>
+            Selamat ulang tahun bocah lucu. Mohon maaf atas kelancanganku yang meminjam namamu tanpa izin. Meski aku pun tak tau siapa yang ada pada setiap jengkal asa yang kau harap. Sesekali patah menjadi konsekuensi. Adalah mendoakan yang aku kehendaki, tak meminta lebih dari; agar kau baik-baik saja lahir dan batin.</p>
+          </p>
+          <div class="button">
+            <img src="media/pause.png" id="icon" />
+          </div>
+        </div>
+        <div class="imgBox">
+          <img src="media/dygif.gif" class="dy_utama" />
+        </div>
+      </div>
+
+      <audio id="mysong">
+        <source src="media/backsound.mp3" type="audio/mp3" autoplay loop/>
+      </audio>
+      <script>
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementById("icon");
+        mysong.autoplay = true;
+
+        icon.onclick = function () {
+          if (mysong.paused) {
+            mysong.play();
+            icon.src = "media/pause.png";
+          } else {
+            mysong.pause();
+            icon.src = "media/play.png";
+          }
+        };
+      </script>
+    </section>
+
+    <main id="page2">
+      <div class="content2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ea8a91"
+            fill-opacity="1"
+            d="M0,32L34.3,37.3C68.6,43,137,53,206,96C274.3,139,343,213,411,218.7C480,224,549,160,617,128C685.7,96,754,96,823,122.7C891.4,149,960,203,1029,192C1097.1,181,1166,107,1234,80C1302.9,53,1371,75,1406,85.3L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+          ></path>
+        </svg>
+        <h1>Hai Dyy!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sit.</p>
+        <div class="omong">
+          <audio controls>
+            <source src="./media/omong.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
+    </main>
+
+    <main id="page3">
+      <div class="content3">
+        <h1>Galeri Dyah Lucu Bgtttttt</h1>
+        <div class="photo-gallery">
+          <div class="column">
+            <div class="photo">
+              <img src="media/dy1.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy2.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy3.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy4.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <main id="page4">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ed999e"
+          fill-opacity="1"
+          d="M0,32L34.3,37.3C68.6,43,137,53,206,96C274.3,139,343,213,411,218.7C480,224,549,160,617,128C685.7,96,754,96,823,122.7C891.4,149,960,203,1029,192C1097.1,181,1166,107,1234,80C1302.9,53,1371,75,1406,85.3L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+        ></path>
+      </svg>
+      <div class="footer">
+        <p>Create with Love by <a href="https://www.instagram.com/moch.agungpw_" target="_blank" rel="noopener noreferrer"> Paiwai</a></p>
+      </div>
+    </main>
+  </body>
+</html>

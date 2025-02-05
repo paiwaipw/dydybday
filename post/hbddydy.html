@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBD DYAHH 🥳</title>
+    <link rel="stylesheet" href="../stylesheet/style2.css" />
+  </head>
+
+  <body>
+    <section id="hbd">
+      <header>
+        <a href="#"><img src="media/play.png" class="logo" /></a>
+        <ul>
+          <li><a href="#hbd">HBD</a></li>
+          <li><a href="#page2">Ucapan</a></li>
+          <li><a href="#page3">Galeri</a></li>
+          <li><a href="#">Harapan</a></li>
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textBox">
+          <h2>ᕼᗩᑭᑭY ᗷIᖇTᕼᗞᗩY<br /><span> Dyahh Lucuuu Bgtttttt</span></h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus minima laboriosam possimus corrupti doloremque dolorum cupiditate repellat sequi quae! Magni porro alias sint officia ratione quae dolore numquam dolorem
+            omnis!
+          </p>
+          <div class="button">
+            <img src="media/play.png" id="icon" />
+          </div>
+        </div>
+        <div class="imgBox">
+          <img src="media/dygif.gif" class="dy_utama" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ed999e"
+          fill-opacity="1"
+          d="M0,32L30,53.3C60,75,120,117,180,149.3C240,181,300,203,360,192C420,181,480,139,540,133.3C600,128,660,160,720,181.3C780,203,840,213,900,213.3C960,213,1020,203,1080,176C1140,149,1200,107,1260,90.7C1320,75,1380,85,1410,90.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+
+      <audio id="mysong">
+        <source src="media/backsound.mp3" type="audio/mp3" />
+      </audio>
+      <script>
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function () {
+          if (mysong.paused) {
+            mysong.play();
+            icon.src = "media/pause.png";
+          } else {
+            mysong.pause();
+            icon.src = "media/play.png";
+          }
+        };
+      </script>
+    </section>
+
+    <section id="page2">
+      <div class="content2">
+        <h1>Aku pe ngomong!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate inventore fugit saepe quos harum.</p>
+        <audio controls>
+          <source src="media/omong.mp3" type="audio/mpeg" />
+          Browser tidak support, mohon perbaharui browser anda!
+        </audio>
+      </div>
+    </section>
+
+    <section id="page3">
+      <div class="content3">
+        <h1>Galeri Dyah Lucu</h1>
+        <div class="photo-gallery">
+          <div class="column">
+            <div class="photo">
+              <img src="media/dy1.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy2.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy3.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy4.jpg" alt="">
+            </div>
+            <div class="photo">
+              <img src="media/dy5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800,900");
+* {
+  margin: unset;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ea8a91;
+}
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e56d75;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul {
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.content {
+  position: relative;
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+.content .textBox h2 {
+  color: #f7d3d6;
+  font-size: 3em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .textBox h2 span {
+  color: #fae2e3;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+.content .textBox p {
+  color: #333;
+}
+.content .button img {
+  max-width: 60px;
+  padding-left: 8%;
+  display: flex;
+  cursor: pointer;
+}
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 100px;
+}
+.content .imgBox img {
+  max-width: 300px;
+}
+.content2 {
+  position: relative;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #ed999e;
+  padding-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.content3 {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/*
+.thumb
+{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5%;
+}
+.thumb li:hover
+{
+    transform: translateY(-15px);
+}
+.thumb li img
+{
+    max-width: 60px;
+}
+*/

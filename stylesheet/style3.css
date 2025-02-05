@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800,900");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  position: relative;
+  padding: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #ea8a91;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e56d75;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+header .logo {
+  max-width: 75px;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox {
+  position: relative;
+  max-width: 800px;
+}
+.content .textBox h2 {
+  color: #f7d3d6;
+  font-size: 3em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+.content .textBox h2 span {
+  color: #fae2e3;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+.content .textBox p {
+  color: #333;
+}
+.content .button img {
+  margin-top: 10px;
+  padding: 10px 10px;
+  max-width: 100px;
+  display: flex;
+  cursor: pointer;
+}
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.content .imgBox img {
+  max-width: 300px;
+}
+.content2 {
+  position: relative;
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  background: #ed999e;
+}
+.content2 h1 {
+  text-align: center;
+  color: #fae2e3;
+}
+.content2 p {
+  text-align: center;
+}
+.omong {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 5px;
+  width: 100%;
+  justify-content: space-between;
+  background: #e56d75;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer p {
+  text-align: center;
+  color: white;
+}
+
+.content3 {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 40px 0;
+  text-align: center;
+  background: #ed999e;
+}
+
+.photo-gallery {
+  display: flex;
+  gap: 50px;
+  padding: 40px 70px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+#page4 {
+  background: #e56d75;
+  padding-bottom: 5;
+}
